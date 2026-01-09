@@ -1,0 +1,208 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;   /* fundo claro */
+  color: #222;          /* texto escuro */
+}
+
+header {
+  background: #ffffff;
+  padding: 20px 10px;
+  text-align: center;
+  border-bottom: 3px solid #d4af37;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #b8860b;
+}
+
+.subtitulo {
+  margin-top: 8px;
+  font-size: 15px;
+  color: #555;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+nav button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #d4af37; /* dourado */
+  color: #000;
+  font-weight: bold;
+}
+
+nav button:hover {
+  opacity: 0.85;
+}
+
+.page {
+  display: none;
+  padding: 20px;
+}
+
+.page.active {
+  display: block;
+}
+
+section {
+  background: #ffffff;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+ul {
+  line-height: 1.8;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  color: #555;
+}
+.pilares {
+  display: grid;
+  gap: 12px;
+}
+
+.pilar {
+  background: #f9f9f9;
+  padding: 14px;
+  border-radius: 8px;
+  border-left: 5px solid #d4af37;
+  font-weight: 500;
+}.logo {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+}
+
+
+
+.menu-icon {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+#menu {
+  display: none;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+#menu.active {
+  display: flex;
+}
+
+#menu a {
+  padding: 16px;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+#menu.active {
+  max-height: 600px;
+}
+
+#menu a {
+  padding: 14px;
+  text-decoration: none;
+  color: #333;
+}.topo {
+  padding: 12px 16px;
+}
+
+.topo-conteudo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.topo-conteudo img.logo {
+  margin-right: 10px;
+}
+
+.titulo-celula {
+  flex: 1;
+  text-align: left;
+  margin: 0;
+}
+
+.menu-icon {
+  font-size: 28px;
+}/* ===== DEVOCIONAL DIÁRIO ===== */
+
+.devocional {
+  padding: 25px;
+  text-align: center;
+  border-top: 6px solid #d4af37;
+}
+
+.devocional h2 {
+  margin-top: 0;
+  color: #b8860b;
+  font-size: 22px;
+}
+
+.versiculo {
+  font-style: italic;
+  margin: 18px 0;
+  color: #444;
+  line-height: 1.6;
+}
+
+.mensagem {
+  margin: 20px 0;
+  font-size: 15px;
+  color: #333;
+  line-height: 1.8;
+}
+
+.btn-devocional {
+  background: #d4af37;
+  color: #000;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-devocional:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
